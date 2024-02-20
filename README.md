@@ -1,8 +1,8 @@
-Uma fake API para uma aplicação de e-commerce
+Uma fake API para uma aplicação de catálogo de produtos
 
 ## ROTAS
 
-### Notícias /products GET
+### Produtos /products GET
 
 Padrão de resposta:
 
