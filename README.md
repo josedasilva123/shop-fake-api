@@ -2,7 +2,7 @@ Uma fake API para uma aplicação de e-commerce
 
 ## ROTAS
 
-### Notícias /news GET
+### Notícias /products GET
 
 Padrão de resposta:
 
