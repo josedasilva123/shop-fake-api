@@ -10,21 +10,19 @@ Padrão de resposta:
 [
    {
       "id": 1,
-      "title": "Computador",
-      "price": 2500,
-      "description": "Lorem ipsum."
+      "title": "Notebook",
+      "price": 3500,
+      "description": "Lorem ipsum.",
+      "img": "https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "userId": 1
    },
    {
       "id": 2,
-      "title": "Notebook",
-      "price": 3500,
-      "description": "Lorem ipsum."
-   },
-   {
-      "id": 3,
       "title": "Mouse",
       "price": 3500,
-      "description": "Lorem ipsum."
+      "description": "Lorem ipsum.",
+      "img": "https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "userId": 1
    }
 ]
 ```
@@ -45,7 +43,9 @@ Padrão de corpo
 {
    "title": "Computador",
    "price": 2500,
-   "description": "Lorem ipsum."
+   "description": "Lorem ipsum.",
+   "img": "https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+   "userId": 1
 }
 ```
 
@@ -56,7 +56,9 @@ Padrão de resposta
    "id": 1,
    "title": "Computador",
    "price": 2500,
-   "description": "Lorem ipsum."
+   "description": "Lorem ipsum.",
+   "img": "https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+   "userId": 1
 }
 ```
 
@@ -76,7 +78,8 @@ Padrão de corpo
 {
    "title": "Computador",
    "price": 2500,
-   "description": "Lorem ipsum."
+   "description": "Lorem ipsum.",
+   "img": "https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 }
 ```
 
@@ -89,7 +92,9 @@ Padrão de resposta
    "id": 1,
    "title": "Computador",
    "price": 2500,
-   "description": "Lorem ipsum."
+   "description": "Lorem ipsum.",
+   "img": "https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+   "userId": 1
 }
 ```
 
@@ -166,7 +171,6 @@ Padrão de resposta
 {
    "email": "johndoe@email.com",
    "name": "John Doe",
-   "job": "Jornalista",
    "id": 1
 }
 ```
